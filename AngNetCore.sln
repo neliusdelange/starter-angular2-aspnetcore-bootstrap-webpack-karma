@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6BA1942E-A197-4A9A-A4EA-985480849EF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E333BB7F-CCB1-4989-B3AF-E4E4967F0893}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AngNetCore", "src\AngNetCore\AngNetCore.xproj", "{1E6E56DF-7EFF-4439-80EC-72FF5ECA96BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E6E56DF-7EFF-4439-80EC-72FF5ECA96BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6E56DF-7EFF-4439-80EC-72FF5ECA96BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6E56DF-7EFF-4439-80EC-72FF5ECA96BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6E56DF-7EFF-4439-80EC-72FF5ECA96BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E6E56DF-7EFF-4439-80EC-72FF5ECA96BD} = {6BA1942E-A197-4A9A-A4EA-985480849EF6}
+	EndGlobalSection
+EndGlobal
